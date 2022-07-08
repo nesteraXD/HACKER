@@ -1,3 +1,13 @@
+repeat wait(4) until game:IsLoaded()
+game:GetService("ReplicatedStorage").endpoints.client_to_server.equip_first_units:InvokeServer()
+
+wait(1)
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.claim_daily_reward:InvokeServer()
+
+wait(2)
+
+
 local args = {
     [1] = "TWOMILLION",
 }
@@ -77,7 +87,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
@@ -86,7 +96,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
@@ -95,7 +105,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
@@ -104,7 +114,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
@@ -113,7 +123,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
@@ -122,20 +132,11 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
     [2] = "ticket"
-}
-
-game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
-
-wait(10)
-
-local args = {
-    [1] = "dbz_fighter",
-    [2] = "gems"
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
@@ -149,7 +150,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
@@ -158,7 +159,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
@@ -167,7 +168,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
@@ -176,7 +177,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
@@ -185,7 +186,16 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
 
-wait(5)
+wait(3)
+
+local args = {
+    [1] = "dbz_fighter",
+    [2] = "gems"
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_random_fighter:InvokeServer(unpack(args))
+
+wait(3)
 
 local args = {
     [1] = "dbz_fighter",
